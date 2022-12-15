@@ -1,0 +1,38 @@
+body{
+    width: 45rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    background-color: wheat;
+}
+
+.tasks-adding button{
+    background-color: rgb(49, 145, 224);
+    color: white;
+    margin: 8px;
+    width: 25%;
+    height: 2rem;
+}
+
+.tasks-adding input{
+    width: 55%;
+    height: 2rem;
+}
+
+.tasks-table {
+    width: 115%;
+    height: 10rem;
+}
+
+
+.main-display {
+    flex-direction: column;
+}
+
+.tasks-info {
+    flex-direction: column;
+}
+
+.task-completed {
+    background-color: rgb(139, 201, 210);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex-container">
+        <div class="main-display flex-container">
+            <h3>Lista de Tareas</h3>
+            <hr>
+            <div class="tasks-container grid-container">
+                <div class="tasks-adding flex-container">
+                    <p>Nueva Tarea ⬇️</p>
+                    <input id="inputTask" type="text" />
+                    <button id="inputButton">Agregar</button>
+                </div>
+                <div class="tasks-info flex-container">
+                    <p>Total: <b id="displayTotalTasks">0</b></p>
+                    <p>Realizadas: <b id="displayCompletedTasks">0</b></p>
+                </div>
+                <div id="tasksTableContainer" class="tasks-data flex-container">
+                    <table class="tasks-table">
+                        <tr>
+                        <th>ID</th>
+                        <th colspan="3">Tareas</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
